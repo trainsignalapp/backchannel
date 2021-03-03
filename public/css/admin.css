@@ -1,4 +1,55 @@
-@import url(https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,700;1,300;1,700&display=swap);
-@import url(https://fonts.googleapis.com/css2?family=Inter:wght@300;700&display=swap);
-@import url(https://fonts.googleapis.com/css2?family=Passion+One&display=swap);
+body {
+  background: #fafafa;
+}
 
+.masthead {
+  padding: 0.4rem;
+  display: flex;
+  background: #4a5568;
+}
+.masthead .brand {
+  flex: 1;
+  font-weight: 300;
+  color: whitesmoke;
+}
+.masthead .brand h1 {
+  font-family: "Passion One", serif;
+  font-weight: 300;
+}
+
+nav.main {
+  flex: 2;
+  display: flex;
+  align-items: center;
+}
+nav.main ul li {
+  margin-right: 0.34rem;
+  display: inline-block;
+}
+nav.main ul li:first-of-type {
+  margin-left: inherit;
+}
+nav.main a {
+  color: whitesmoke;
+  font-size: 0.85rem;
+}
+
+.right {
+  flex: 1;
+  text-align: right;
+}
+
+main {
+  padding: 1rem;
+}
+main .title {
+  padding: 0 0 1rem 0;
+  font-size: 2rem;
+  color: #fc575e;
+  width: 100%;
+  clear: both;
+}
+main .content {
+  display: flex;
+  flex-direction: row;
+}

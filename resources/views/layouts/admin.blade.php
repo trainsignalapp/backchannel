@@ -8,6 +8,7 @@
 
     <title>@yield('title') :: {{ config('app.name') }}</title>
 
+    <link rel="stylesheet" type="text/css" href="{{ mix('css/app.css') }}" />
     <link rel="stylesheet" type="text/css" href="{{ mix('css/admin.css') }}" />
 </head>
 
@@ -17,11 +18,20 @@
             <h1>{{ @config('app.name') }}</h1>
         </div>
 
-        <nav class="main"></nav>
+        @include('widget.nav.main')
+
+        <div class="right">
+            <button>Hello</button>
+        </div>
     </header>
 
     <main>
-        @yield('content')
+        <h2 class="title">@yield('page.title')</h2>
+
+
+        <section class="content">
+            @yield('content')
+        </section>
     </main>
 
     <footer class="colophon">&nbsp;</footer>

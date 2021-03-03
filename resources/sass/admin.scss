@@ -1,1 +1,73 @@
-@import "partials/fonts";
+body {
+    background: #fafafa;
+}
+
+.masthead {
+    padding: 0.4rem;
+    display: flex;
+
+    background: #4a5568;
+
+    .brand {
+        flex: 1;
+        h1 {
+            font-family: 'Passion One', serif;
+            font-weight: 300;
+        }
+
+
+        font-weight: 300;
+        color: whitesmoke;
+    }
+}
+
+nav.main {
+    flex: 2;
+    display: flex;
+
+    align-items: center;
+
+    ul{
+        li {
+            margin-right: 0.34rem;
+            display: inline-block;
+
+            &:first-of-type {
+                margin-left: inherit;
+            }
+        }
+
+
+    }
+
+    a {
+        color: whitesmoke;
+        font-size: 0.85rem;
+    }
+}
+
+.right {
+    flex: 1;
+    text-align: right;
+}
+
+main {
+    .title {
+        padding: 0 0 1rem 0;
+        font-size: 2rem;
+        color: #fc575e;
+
+        width: 100%;
+
+        clear: both;
+
+    }
+    padding: 1rem;
+
+    .content {
+        display: flex;
+        flex-direction: row;
+    }
+
+
+}
