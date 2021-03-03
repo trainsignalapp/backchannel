@@ -115,6 +115,9 @@
       <excludeFolder url="file://$MODULE_DIR$/vendor/sebastian/code-unit" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/robinvdvleuten/ulid" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/bearlovescode/laravel" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/jeremykenedy/laravel-roles" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/eklundkristoffer/seedster" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/laravel/helpers" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
