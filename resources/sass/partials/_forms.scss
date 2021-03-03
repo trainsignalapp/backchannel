@@ -40,7 +40,10 @@ label {
 {
     padding: .8rem 0;
 
+    font-family: $default-font-family;
+
     .error {
+        padding: 0.2rem 0 0.4rem 0;
         font-size: $form-control-error-text-font-size;
         color: $form-control-error-text-color;
     }

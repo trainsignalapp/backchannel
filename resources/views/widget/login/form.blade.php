@@ -2,13 +2,13 @@
 
     <div class="control">
         <label for="txtLoginEmail">@lang('user.fields.email')</label>
-        <input type="text" id="txtLoginEmail" name="email" placeholder="email@example.com"/>
+        <input type="text" id="txtLoginEmail" name="email" value="{{ old('email') }}" placeholder="email@example.com"/>
         <div class="error">{{ $errors->first('email') }}</div>
     </div>
 
     <div class="control">
         <label for="txtLoginPass">@lang('user.fields.password')</label>
-        <input type="text" id="txtLoginPass" name="password" placeholder="P@ssWord!"/>
+        <input type="password" id="txtLoginPass" name="password" placeholder="Enter your password..."/>
         <div class="error">{{ $errors->first('password') }}</div>
     </div>
 
