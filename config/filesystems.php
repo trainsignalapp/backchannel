@@ -52,6 +52,13 @@ return [
             'endpoint' => env('AWS_ENDPOINT'),
         ],
 
+        'b2' => [
+            'driver' => 'b2',
+            'accountId' => ('B2_ACCOUNT_ID'),
+            'applicationKey' => ('B2_APPLICATION_KEY'),
+            'bucketName' => ('B2_BUCKET_NAME'),
+            'bucketId' => ('B2_BUCKET_ID')
+        ]
     ],
 
     /*

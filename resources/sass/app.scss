@@ -1,0 +1,27 @@
+@import "variables";
+
+@import "partials/reset";
+@import "partials/fonts";
+@import "partials/typography";
+
+@import "partials/forms";
+
+.brand {
+    font-family: $brand-font-family;
+    font-weight: $brand-font-weight;
+}
+
+.inner {
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+
+    .col {
+        margin-right: 30px;
+
+        &:last-of-type {
+            margin-right: initial;
+        }
+    }
+}

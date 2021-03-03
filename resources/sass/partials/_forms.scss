@@ -1,0 +1,51 @@
+input,
+textarea {
+    width: 100%;
+
+    border: none;
+    border-bottom: solid 1px #2d3748;
+}
+
+button,
+a.button {
+    margin: 0;
+    padding: 0.34rem;
+
+    border-radius: 0.34rem;
+
+    display: inline-block;
+    border: none;
+
+    background: #dadada;
+
+    font-size: 1rem;
+    font-weight: 300;
+    color: #333;
+
+    &.primary {
+        background: #4a5568;
+        color: white;
+    }
+}
+
+a.button {
+    text-decoration: none;
+}
+
+label {
+    font-weight: 700;
+}
+
+.control
+{
+    padding: .8rem 0;
+
+    .error {
+        font-size: $form-control-error-text-font-size;
+        color: $form-control-error-text-color;
+    }
+}
+
+.actions {
+    padding-top: 0.8rem;
+}
