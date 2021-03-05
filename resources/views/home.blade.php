@@ -1,5 +1,5 @@
 @extends('layouts.admin')
-@section('page.title', __('pages.home.title'))
+@section('title', __('pages.home.title'))
 
 @section('content')
 <div class="tile">

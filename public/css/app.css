@@ -77,6 +77,17 @@ label {
   padding-top: 0.8rem;
 }
 
+form.signout {
+  display: inline;
+}
+form.signout button.signout {
+  font-size: 0.7rem;
+  background: transparent;
+}
+form.signout button.signout:hover {
+  background: #90d5ec;
+}
+
 .tile {
   padding: 0;
   margin-right: 30px;

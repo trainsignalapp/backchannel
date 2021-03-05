@@ -15,18 +15,21 @@
 <body>
     <header class="masthead">
         <div class="brand">
-            <h1>{{ @config('app.name') }}</h1>
+            <h1> <a href="{{ route('home') }}">{{ @config('app.name') }}</a></h1>
         </div>
 
         @include('widget.nav.main')
 
         <div class="right">
-            <button>Hello</button>
+            <div class="user">
+                @lang('user.greeting', ['name' => Auth::user()->name])
+            </div>
+            @include('widget.buttons.signout')
         </div>
     </header>
 
     <main>
-        <h2 class="title">@yield('page.title')</h2>
+        <h2 class="title">@yield('title')</h2>
 
 
         <section class="content">

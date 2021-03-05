@@ -52,3 +52,18 @@ label {
 .actions {
     padding-top: 0.8rem;
 }
+
+
+form.signout {
+    display: inline;
+
+    button.signout {
+        font-size: 0.7rem;
+
+        background: transparent;
+
+        &:hover {
+            background: #90d5ec;
+        }
+    }
+}

@@ -5,12 +5,19 @@ body {
 .masthead {
   padding: 0.4rem;
   display: flex;
-  background: #4a5568;
+  background: whitesmoke;
 }
 .masthead .brand {
   flex: 1;
   font-weight: 300;
-  color: whitesmoke;
+  color: #0b3056;
+}
+.masthead .brand a {
+  text-decoration: none;
+  color: inherit;
+}
+.masthead .brand a:visited {
+  color: inherit;
 }
 .masthead .brand h1 {
   font-family: "Passion One", serif;
@@ -30,13 +37,28 @@ nav.main ul li:first-of-type {
   margin-left: inherit;
 }
 nav.main a {
-  color: whitesmoke;
   font-size: 0.85rem;
+  color: inherit;
+}
+nav.main a:hover {
+  text-decoration: underline;
+  -webkit-text-decoration-color: #fc575e;
+          text-decoration-color: #fc575e;
+}
+nav.main a:visited {
+  color: inherit;
 }
 
 .right {
   flex: 1;
+  display: flex;
   text-align: right;
+  justify-content: center;
+  align-items: center;
+}
+.right div {
+  flex: 1;
+  padding-right: 0.34rem;
 }
 
 main {

@@ -6,10 +6,21 @@ body {
     padding: 0.4rem;
     display: flex;
 
-    background: #4a5568;
+    //background: #4a5568;
+
+    background: whitesmoke;
 
     .brand {
         flex: 1;
+
+
+        a {
+            text-decoration: none;
+            color: inherit;
+
+            &:visited { color: inherit; }
+        }
+
         h1 {
             font-family: 'Passion One', serif;
             font-weight: 300;
@@ -17,7 +28,7 @@ body {
 
 
         font-weight: 300;
-        color: whitesmoke;
+        color: #0b3056;
     }
 }
 
@@ -41,14 +52,32 @@ nav.main {
     }
 
     a {
-        color: whitesmoke;
         font-size: 0.85rem;
+        color: inherit;
+
+        &:hover {
+            text-decoration: underline;
+            text-decoration-color: #fc575e;
+        }
+
+        &:visited {
+            color: inherit;
+        }
     }
 }
 
 .right {
     flex: 1;
+    display: flex;
     text-align: right;
+
+    justify-content: center;
+    align-items: center;
+
+    div {
+        flex: 1;
+        padding-right: 0.34rem;
+    }
 }
 
 main {

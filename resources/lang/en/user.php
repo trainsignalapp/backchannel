@@ -1,5 +1,6 @@
 <?php
     return [
+        'greeting' => 'Hello, :name!',
         'fields' => [
             'name' => 'Name',
             'email' => 'Email',
